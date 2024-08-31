@@ -26,16 +26,6 @@ local startingNationInfo =
     [xi.nation.WINDURST] = { ring = xi.item.WINDURSTIAN_RING, map = xi.ki.MAP_OF_THE_WINDURST_AREA  },
 }
 
--- local startingJobGear =
--- {
---     [xi.job.WAR] = { xi.item.ONION_SWORD                               },
---     [xi.job.MNK] = { xi.item.WHITE_BELT                                },
---     [xi.job.WHM] = { xi.item.ONION_ROD,    xi.item.SCROLL_OF_CURE_EX  },
---     [xi.job.BLM] = { xi.item.ONION_STAFF,  xi.item.SCROLL_OF_STONE_EX },
---     [xi.job.RDM] = { xi.item.ONION_DAGGER, xi.item.SCROLL_OF_DIA_EX   },
---     [xi.job.THF] = { xi.item.ONION_KNIFE                               },
--- }
-
 local startingJobGear =
 {
     [xi.job.WAR] = { xi.item.ONION_SWORD,  xi.item.DESTRIER_BERET,     xi.item.CHOCOBO_SHIRT                            },

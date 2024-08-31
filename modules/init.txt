@@ -38,3 +38,8 @@
 
 custom/commands/
 custom/lua/test_npcs_in_gm_home.lua
+
+# my personalizations
+custom/sql/safe_outposts.sql
+custom/lua/conquest_regional_npcs_always_up.lua
+custom/cpp/ah_pagination.cpp
