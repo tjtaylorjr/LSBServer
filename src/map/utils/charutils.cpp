@@ -3416,9 +3416,14 @@ namespace charutils
 
             double random = xirand::GetRandomNumber(1.);
 
-            if (SkillUpChance > 0.5)
+            // if (SkillUpChance > 0.5)
+            // {
+            //     SkillUpChance = 0.5;
+            // }
+
+            if (SkillUpChance > 0.75)
             {
-                SkillUpChance = 0.5;
+                SkillUpChance = 0.75;
             }
 
             // Check for skillup% bonus. https://www.bg-wiki.com/bg/Category:Skill_Up_Food

@@ -11,9 +11,9 @@ entity.onTrade = function(player, npc, trade)
 end
 
 entity.onTrigger = function(player, npc)
---    if GetRegionOwner(xi.region.KOLSHUSHU) ~= xi.nation.BASTOK then
---        player:showText(npc, ID.text.YAFAFA_CLOSED_DIALOG)
---    else
+    if GetRegionOwner(xi.region.KOLSHUSHU) ~= xi.nation.BASTOK then
+        player:showText(npc, ID.text.YAFAFA_CLOSED_DIALOG)
+    else
         local stock =
         {
             xi.item.BULB_OF_MHAURA_GARLIC,      83,
@@ -25,7 +25,7 @@ entity.onTrigger = function(player, npc)
 
         player:showText(npc, ID.text.YAFAFA_OPEN_DIALOG)
         xi.shop.general(player, stock, xi.fameArea.BASTOK)
---    end
+    end
 end
 
 entity.onEventUpdate = function(player, csid, option, npc)
